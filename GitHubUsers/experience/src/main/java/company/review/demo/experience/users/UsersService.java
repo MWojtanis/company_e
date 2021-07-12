@@ -53,11 +53,6 @@ public class UsersService {
         return https;
     }
 
-
-
-
-
-
     private void countUpRequest(String login) {
         UserEntity user = usersRepository.findByLogin(login).orElse(null);
         if (user == null) {

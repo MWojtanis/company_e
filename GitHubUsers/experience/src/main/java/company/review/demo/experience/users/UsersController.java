@@ -14,7 +14,7 @@ public class UsersController {
     }
 
     @CrossOrigin
-    @GetMapping("/api/users/{login}")
+    @GetMapping("/users/{login}")
     public UserDTO index(@PathVariable(value="login") String login) throws CalculationsDivideByZeroException {
         return userService.getUser(login);
     }
