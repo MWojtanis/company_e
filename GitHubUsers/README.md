@@ -18,4 +18,4 @@ A gdy już zakończy to uruchomić spring boota:
  mvn spring-boot:run
  
 ## RESTy
- localhost:8080/api/users/{name}
+ localhost:8080/users/{name}
