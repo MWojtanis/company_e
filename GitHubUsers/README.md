@@ -10,7 +10,7 @@ Intellij IDEA 2020+
 Folder .run dla uruchomienia aplikacji z IntelliJ IDEA.
 
 
-#Start  
+# Start  
 W folderze "experience" nalezy uruchomić:  
  mvn clean install
 
